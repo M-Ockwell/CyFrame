@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs", 
+    "target": "es2017", // Or a more recent version
+    "lib": [
+      "es2017", // Update 'lib' to match the target
+      "dom"
+    ],
+    "types": [
+      "cypress",
+      "node"
+    ]
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}
